@@ -1,0 +1,108 @@
+* {
+  font-family: "merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  /* https://medium.com/@mignunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
+  width: 95%;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    #E0FBFC 0%,
+    #E0FBFC 50%,
+    #3D5A80 50%,
+    #3D5A80 100%
+  );
+}
+
+.logo > img{
+  border: 2px solid black;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 200px;
+}
+
+.login-box {
+  background-color: #EE6C4D;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #F7BBAC;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px 10px #303030;
+  position: absolute;
+  left: 25%;
+  top: 25%
+}
+
+.field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid black;
+  border-radius: 3px;
+  width: 60%;
+  height: 50px;
+  position: relative;
+  left: 10%;
+  top: 50px;
+  font-size: 20px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10%;
+  width: 80%;
+  height: 15%;
+  left: 20%;
+}
+
+.buttons > input {
+  height: 100%;
+  width: 40%;
+  background-color: #98C1D9;
+  font-size: 20px;
+}
+
+.g-recaptcha {
+  position: relative;
+  bottom: -65px;  
+}
+
+.menu-bar {
+  position: fixed;
+  right: 0%;
+  width: 30%;
+  top: 0%;
+  height: 50px;
+  background-color: #98C1D9;
+}
+
+.menu-bar > tbody > tr > td {
+  width: 25%;
+  text-align: center;
+  border: 2px solid #000000;
+  font-size: 15px;
+}
+
+.menu-bar > tbody > tr > td:hover {
+  background-color: #4791BC;
+}
+
+.content-box {
+  position: relative;
+  top: 87px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.list, td {
+  border: 1px solid;
+}
+
+.title_row > td {
+  font-weight: bold;
+}
